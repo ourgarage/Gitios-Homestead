@@ -13,4 +13,5 @@
 
 ## Introduction
 - Clone repository `git clone https://github.com/ourgarage/vagrant.git`
+- Clone the Homestead repository. Mac or Linux: `bash init.sh`, Windows: `init.bat`
 - Go to the folder and run `vagrant up`
