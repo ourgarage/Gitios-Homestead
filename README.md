@@ -12,5 +12,5 @@
 - [Add key to the Github](https://github.com/settings/keys)
 
 ## Introduction
-- Clone repository `git clone https://github.com/ourgarage/vagrant.git`
+- Clone repository `git clone https://github.com/ourgarage/vagrant.git .`
 - Go to the folder and run `vagrant up`
