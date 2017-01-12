@@ -40,6 +40,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         config.hostsupdater.aliases = settings['sites'].map { |site| site['map'] }
     end
 	
+	# PMA
+	config.vm.provision :shell, path: "projects/pma.sh"
+
 	# Projects
-	config.vm.provision :shell, path: "/projects/engin.sh"
+	config.vm.provision :shell, path: "projects/engin.sh"
 end
