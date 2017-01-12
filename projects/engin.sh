@@ -1,6 +1,8 @@
 # Clear The Old Environment Variables
 
-sudo -H -u vagrant 'mkdir -p /home/vagrant/www/engin.dev/source'
+mkdir -p /home/vagrant/www/engin.dev/source
+
+chown -R vagrant:vagrant /home/vagrant/www/engin.dev/source
 
 cd /home/vagrant/www/engin.dev/source
 
