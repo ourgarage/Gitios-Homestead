@@ -6,8 +6,8 @@
 
 ***
 ## Before
-- Download and Install [Vagrant](https://www.vagrantup.com/downloads.html)
-- Download and Install  [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- Download and install [Vagrant](https://www.vagrantup.com/downloads.html)
+- Download and install  [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 ## Introduction
 - Clone repository `git clone https://github.com/ourgarage/vagrant.git`
