@@ -3,6 +3,7 @@
 homesteadRoot=~/.homestead
 
 mkdir -p "$homesteadRoot"
+mkdir -p www
 
 cp -i src/stubs/Homestead.yaml "$homesteadRoot/Homestead.yaml"
 cp -i src/stubs/after.sh "$homesteadRoot/after.sh"

@@ -3,6 +3,7 @@
 set homesteadRoot=%HOMEDRIVE%%HOMEPATH%\.homestead
 
 mkdir "%homesteadRoot%"
+mkdir www
 
 copy /-y src\stubs\Homestead.yaml "%homesteadRoot%\Homestead.yaml"
 copy /-y src\stubs\after.sh "%homesteadRoot%\after.sh"
