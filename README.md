@@ -5,9 +5,10 @@
 </p>
 
 ***
+## Before
+- Download and Install [Vagrant](https://www.vagrantup.com/downloads.html)
+- Download and Install  [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 ## Introduction
-
-Laravel Homestead is an official, pre-packaged Vagrant box that provides you a wonderful development environment without requiring you to install PHP, a web server, and any other server software on your local machine. No more worrying about messing up your operating system! Vagrant boxes are completely disposable. If something goes wrong, you can destroy and re-create the box in minutes!
-
-Homestead runs on any Windows, Mac, or Linux system, and includes the Nginx web server, PHP 7.1, MySQL, Postgres, Redis, Memcached, Node, and all of the other goodies you need to develop amazing Laravel applications.
+- Clone repository `git clone https://github.com/ourgarage/vagrant.git`
+- Go to the folder and run `vagrant up`
