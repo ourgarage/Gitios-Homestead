@@ -8,6 +8,8 @@
 ## Before
 - Download and install [Vagrant](https://www.vagrantup.com/downloads.html)
 - Download and install  [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- Generate SSH key `ssh-keygen -t rsa -C "mailbox@example"`
+- [Add key to the Github](https://github.com/settings/keys)
 
 ## Introduction
 - Clone repository `git clone https://github.com/ourgarage/vagrant.git`
