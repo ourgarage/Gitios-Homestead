@@ -1,4 +1,4 @@
-<p align="center"><img src="http://images.vfl.ru/ii/1484186322/185b9211/15633523.png"></p>
+<p align="center"><img src="http://images.vfl.ru/ii/1484224991/e0d4ec6d/15641949.png"></p>
 
 <p align="center">
 <strong>Ourgarage vagrant</strong>
