@@ -15,7 +15,7 @@ folders:
 
 sites:
     - map: engin.dev
-      to: /home/vagrant/www/engin
+      to: /home/vagrant/www/engin/public
 
     - map: pma.dev
       to: /home/vagrant/www/pma.dev/source
