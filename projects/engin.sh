@@ -2,5 +2,5 @@
 
 mkdir -p /home/vagrant/www/engin.dev/source
 cd /home/vagrant/www/engin.dev/source
-git clone https://github.com/ourgarage/General.git
+git clone https://github.com/ourgarage/General.git .
 make init_dev
