@@ -2,6 +2,7 @@
 
 mkdir -p /home/vagrant/www/pma.dev/source
 mkdir -p /home/vagrant/www/pma.dev/tmp/unpack
+sudo chown -R vagrant:vagrant /home/vagrant/www
 
 # For Proxy
 #export http_proxy=http://10.100.1.254:8078
