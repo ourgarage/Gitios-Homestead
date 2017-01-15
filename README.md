@@ -12,7 +12,7 @@
 - [Add key to the Github](https://github.com/settings/keys)
 
 ## Introduction
-- Clone repository `git clone https://github.com/ourgarage/vagrant.git`
+- Clone repository `git clone git@github.com:ourgarage/vagrant.git`
 - Init the Homestead. Mac or Linux: `bash init.sh`, Windows: `init.bat`
 - Add plugin `vagrant plugin install vagrant-hostsupdater`
 - Go to the folder and run `vagrant up`
