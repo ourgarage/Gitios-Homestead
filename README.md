@@ -13,6 +13,11 @@
 
 ## Introduction
 - Clone repository `git clone https://github.com/ourgarage/vagrant.git`
-- Clone the Homestead repository. Mac or Linux: `bash init.sh`, Windows: `init.bat`
+- Init the Homestead. Mac or Linux: `bash init.sh`, Windows: `init.bat`
 - Add plugin `vagrant plugin install vagrant-hostsupdater`
 - Go to the folder and run `vagrant up`
+- Add next line to your `/etc/hosts` file
+
+```
+192.168.10.10   engin.dev www.engin.dev pma.dev www.pma.dev
+```
