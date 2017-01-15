@@ -16,9 +16,10 @@ folders:
 sites:
     - map: engin.dev
       to: /home/vagrant/www/engin/public
+      schedule: true
 
     - map: pma.dev
-      to: /home/vagrant/www/pma.dev/source
+      to: /home/vagrant/www/pma.dev
 
 databases:
     - homestead
