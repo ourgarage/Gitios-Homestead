@@ -20,6 +20,7 @@ sites:
 
     - map: pma.dev
       to: /home/vagrant/www/pma.dev
+      type: pma
 
 databases:
     - homestead
