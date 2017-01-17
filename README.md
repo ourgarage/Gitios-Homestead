@@ -9,6 +9,7 @@
 - Download and install [Vagrant](https://www.vagrantup.com/downloads.html)
 - Download and install  [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 - Generate SSH key `ssh-keygen -t rsa -C "mailbox@example"`    [GIT for Windows](https://git-for-windows.github.io/index.html)
+- Watch key `cat ~/.ssh/id_rsa.pub`
 - [Add key to the Github](https://github.com/settings/keys)
 
 ## Introduction
