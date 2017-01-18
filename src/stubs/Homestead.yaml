@@ -11,7 +11,7 @@ keys:
 
 folders:
     - map: www
-      to: /home/vagrant/www
+      to: /home/vagrant/www/engin
 
 sites:
     - map: engin.dev
