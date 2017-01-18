@@ -11,7 +11,7 @@ keys:
 
 folders:
     - map: www
-      to: /home/vagrant/www/engin
+      to: /home/vagrant/www
 
 sites:
     - map: engin.dev
@@ -19,7 +19,7 @@ sites:
       schedule: true
 
     - map: pma.dev
-      to: /home/vagrant/www/pma.dev
+      to: /home/vagrant/tools/pma.dev
       type: pma
 
 databases:
