@@ -1,0 +1,17 @@
+ProxyCommand corkscrew <address> <port> %h %p
+
+Host github.com
+	User git
+	Port 443
+	Hostname ssh.github.com
+	IdentityFile "~/.ssh/id_rsa"
+	IdentitiesOnly yes
+	TCPKeepAlive yes
+
+Host bitbucket.org
+	User git
+	Port 443
+	Hostname altssh.bitbucket.org
+	IdentityFile "~/.ssh/id_rsa"
+	IdentitiesOnly yes
+	TCPKeepAlive yes

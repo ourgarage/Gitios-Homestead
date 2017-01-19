@@ -22,3 +22,26 @@
 ```
 192.168.10.10   engin.dev www.engin.dev pma.dev www.pma.dev
 ```
+- Or install plugin [vagrant-hostupdater](https://github.com/cogitatio/vagrant-hostsupdater):
+```
+vagrant plugin install vagrant-hostsupdater
+```
+
+## If you use a proxy
+- Install plugin [vagrant-proxyconf](https://github.com/tmatilai/vagrant-proxyconf):
+```
+vagrant plugin install vagrant-proxyconf
+```
+- Add a proxy address in `sripts/homestead.rb` file:
+```
+159     config.proxy.http     = "http://<address:port>"
+160     config.proxy.https    = "http://<address:port>"
+161     config.proxy.no_proxy = "localhost,127.0.0.1"
+162     config.apt_proxy.http = "http://<address:port>"
+163     config.apt_proxy.https = "http://<address:port>"
+164     config.proxy.ftp = "http://<address:port>"
+```
+- To use SSH through Proxy, add a proxy address in `proxy/config` file:
+```
+ProxyCommand corkscrew <address> <port> %h %p
+```
