@@ -11,6 +11,9 @@
 - Generate SSH key `ssh-keygen -t rsa -C "mailbox@example"`    [GIT for Windows](https://git-for-windows.github.io/index.html)
 - Watch key `cat ~/.ssh/id_rsa.pub`
 - [Add key to the Github](https://github.com/settings/keys)
+- Set GIT global config <br/>
+   `git config --global user.name "John Doe"`<br/>
+   `git config --global user.email "johndoe@example.com"`
 
 ## Introduction
 - Clone repository `git clone git@github.com:ourgarage/vagrant.git`
