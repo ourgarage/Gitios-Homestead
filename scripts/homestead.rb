@@ -155,6 +155,20 @@ class Homestead
       end
     end
 
+    if Vagrant.has_plugin?("vagrant-proxyconf")
+      config.proxy.http     = "http://<address:port>"
+      config.proxy.https    = "http://<address:port>"
+      config.proxy.no_proxy = "localhost,127.0.0.1"
+      config.apt_proxy.http = "http://<address:port>"
+      config.apt_proxy.https = "http://<address:port>"
+      config.proxy.ftp = "http://<address:port>"
+
+      config.vm.provision "shell" do |s|
+         s.name = "Proxy for SSH"
+         s.path = "proxy/proxy.sh"
+      end
+    end
+
     # Install All The Configured Nginx Sites
     config.vm.provision "shell" do |s|
         s.path = scriptDir + "/clear-nginx.sh"
